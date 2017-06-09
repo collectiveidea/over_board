@@ -1,0 +1,1 @@
+Feature = Struct.new(:id, :name, :description,:url)

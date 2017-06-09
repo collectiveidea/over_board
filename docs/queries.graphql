@@ -1,0 +1,40 @@
+mutation($input: AddFeatureInput!) {
+  addFeature(input: $input) {
+    clientMutationId,
+    featureEdge {
+      node {
+        id
+        name
+        description
+        url
+      }
+    }
+  }
+}
+
+##### Variables for mutation
+{
+  "input": {
+   	"name": "Foo",
+    "description": "Bar",
+    "url": "baz"
+  }
+}
+
+
+#########
+{
+  viewer {
+    id
+    features {
+      edges {
+        node {
+          id
+          name
+          description
+          url
+        }
+      }
+    }
+  }
+}
