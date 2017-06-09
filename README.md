@@ -28,4 +28,6 @@ IMO it's less terrible than the current state of modern JS on rails.
 
 ## To Do
 - [ ] Request specs for the GraphQL endpoint, which should be pretty easy.
+- [ ] Upgrade to Relay Modern (blocking on relay-fullstack upgrade)
+- [ ] The IDs that GraphQL (rails) returns are integers, so I don't think they're right. They should be translated to keys for the relay store, and it's not clear that this is happening. Mutations work, though.
 - [ ] A spiffier Readme.
