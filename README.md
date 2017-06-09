@@ -25,3 +25,7 @@ apparatus, so I went ahead and put it back in. So this app sort of has two front
 the node/express/relay front-end that serves up the app to the users (under the `/client` directory),
 and the rails GraphiQL front-end, available at `localhost:3000/graphiql`. That's not great,
 IMO it's less terrible than the current state of modern JS on rails.
+
+## To Do
+- [ ] Request specs for the GraphQL endpoint, which should be pretty easy.
+- [ ] A spiffier Readme.
